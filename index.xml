@@ -6,13 +6,22 @@
     <description>Recent content on Badalog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://0cean-kr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://0cean-kr.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://0cean-kr.github.io/about/</link>
       <pubDate>Wed, 22 Dec 2021 22:31:55 -0600</pubDate>
       
       <guid>https://0cean-kr.github.io/about/</guid>
+      <description>Content text goes here&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>얀녕하시유</title>
+      <link>https://0cean-kr.github.io/archive/post/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://0cean-kr.github.io/archive/post/</guid>
       <description>Content text goes here&amp;hellip;</description>
     </item>
     
