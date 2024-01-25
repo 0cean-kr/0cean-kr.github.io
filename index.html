@@ -3,7 +3,7 @@
 	<meta name="generator" content="Hugo 0.104.3" />
     <title>Badalog</title>
     <meta charset="utf-8">
-    <meta name="description" content="This is a description of your site. This is also used in your site header metadata." />
+    <meta name="description" content="" />
     <meta name="dc.relation" content="https://0cean-kr.github.io/" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -73,12 +73,17 @@
 
           <div class="columns">
             <div class="column">
-                <p class="title"><a class="nope" href="https://0cean-kr.github.io/archive/post/"> 얀녕하시유</a></h1>
+                <p class="title"><a class="nope" href="https://0cean-kr.github.io/archive/"> 💥 신 메뉴 체계와 구 메뉴 체계 상호 간 영향 받지 않게 CSS 분리</a></h1>
 
               <div class="content">
-                <h2 class="subtitle is-5"><time>January 24, 2024</time></h2>
-                <p class="subtitle is-4">Every post should have a great description!</p>
-                <p>Content text goes here&hellip;</p>
+                <h2 class="subtitle is-5"><time>January 25, 2024</time></h2>
+                <p class="subtitle is-4">신 메뉴 체계와 구 메뉴 체계 상호 간 영향 받지 않게 CSS 분리!</p>
+                <p>isNewDecorator 라는 옵션으로 구 UI와 신 UI를 나누게 되었다. 옵션으로 나뉘었지만 구 UI와 신 UI가 사용하는 CSS 파일은 분리하지 않고 같은 파일을 사용하였더니, 구 UI에서 수정하면 신 UI에서 틀어지고, 신 UI에서 수정하면 구 UI에서 틀어지는 일이 벌어졌다…… 그래서 이 둘이 사용하는 CSS 파일을 완전히 분리하기로 했다.
+CSS 폴더 ⇒ 구 UI 사용 CSS 파일들 CSS2 폴더 ⇒ 신 UI 사용 CSS 파일들 단순히 이렇게 끝났으면 간단하고 좋았을텐데… 문제가 발생했다 💥 기존에 작업이 됐던 브랜치들이 Stable 브랜치로 최종 반영되면, 각 브랜치들의 수정사항이 구 UI CSS파일(main.</p>
+                
+                  <div class="read-more">
+                    <i class="fas fa fa-bookmark"></i><a class="is-italic" href="https://0cean-kr.github.io/archive/"> Read More…</a>
+                  </p>
                 
                 </div>
               </div>
@@ -95,7 +100,29 @@
 
           <div class="columns">
             <div class="column">
-                <p class="title"><a class="nope" href="https://0cean-kr.github.io/archive/examplepost/"> Example Post</a></h1>
+                <p class="title"><a class="nope" href="https://0cean-kr.github.io/archive/"> 안녕하시유</a></h1>
+
+              <div class="content">
+                <h2 class="subtitle is-5"><time>January 24, 2024</time></h2>
+                <p class="subtitle is-4">Every post should have a great description!</p>
+                <p>테스트 페이지입니다.</p>
+                
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <div class="columns">
+          <div class="column">
+            <figure class="image ">
+              
+            </figure>
+          </div>
+        </div>
+
+          <div class="columns">
+            <div class="column">
+                <p class="title"><a class="nope" href="https://0cean-kr.github.io/archive/"> Example Post</a></h1>
 
               <div class="content">
                 <h2 class="subtitle is-5"><time>December 30, 2021</time></h2>
@@ -121,9 +148,7 @@
       
         
           
-          <a class="footer-social" href="https://linkedin.com/in/yourlinkedinprofile">LinkedIn</a>
-          
-          <a class="footer-social" href="https://twitter.com/yourtwittername">Twitter</a>
+          <a class="footer-social" href="https://github.com/0cean-kr">Github</a>
           
         
       
@@ -134,7 +159,7 @@
         Website theme is <a class="has-text-weight-semibold" href="http://github.com/alloydwhitlock/huey">Huey</a> by <a class="has-text-weight-semibold" href="https://adamwhitlock.com">Adam Whitlock</a>.
       </p>
       <p>
-         &copy; 2024 Author&#39;s name goes here
+         &copy; 2024 
       </p>
     </layer>
   </div>

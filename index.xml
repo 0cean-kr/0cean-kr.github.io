@@ -6,31 +6,50 @@
     <description>Recent content on Badalog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://0cean-kr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://0cean-kr.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://0cean-kr.github.io/about/</link>
-      <pubDate>Wed, 22 Dec 2021 22:31:55 -0600</pubDate>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://0cean-kr.github.io/about/</guid>
-      <description>Content text goes here&amp;hellip;</description>
+      <description>안녕하세요 김바다입니다.</description>
     </item>
     
     <item>
-      <title>얀녕하시유</title>
-      <link>https://0cean-kr.github.io/archive/post/</link>
+      <title>💥 신 메뉴 체계와 구 메뉴 체계 상호 간 영향 받지 않게 CSS 분리</title>
+      <link>https://0cean-kr.github.io/archive/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://0cean-kr.github.io/archive/</guid>
+      <description>isNewDecorator 라는 옵션으로 구 UI와 신 UI를 나누게 되었다. 옵션으로 나뉘었지만 구 UI와 신 UI가 사용하는 CSS 파일은 분리하지 않고 같은 파일을 사용하였더니, 구 UI에서 수정하면 신 UI에서 틀어지고, 신 UI에서 수정하면 구 UI에서 틀어지는 일이 벌어졌다…… 그래서 이 둘이 사용하는 CSS 파일을 완전히 분리하기로 했다.
+CSS 폴더 ⇒ 구 UI 사용 CSS 파일들 CSS2 폴더 ⇒ 신 UI 사용 CSS 파일들 단순히 이렇게 끝났으면 간단하고 좋았을텐데… 문제가 발생했다 💥 기존에 작업이 됐던 브랜치들이 Stable 브랜치로 최종 반영되면, 각 브랜치들의 수정사항이 구 UI CSS파일(main.</description>
+    </item>
+    
+    <item>
+      <title>안녕하시유</title>
+      <link>https://0cean-kr.github.io/archive/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://0cean-kr.github.io/archive/post/</guid>
-      <description>Content text goes here&amp;hellip;</description>
+      <guid>https://0cean-kr.github.io/archive/</guid>
+      <description>테스트 페이지입니다.</description>
     </item>
     
     <item>
       <title>Example Post</title>
-      <link>https://0cean-kr.github.io/archive/examplepost/</link>
+      <link>https://0cean-kr.github.io/archive/</link>
       <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://0cean-kr.github.io/archive/examplepost/</guid>
+      <guid>https://0cean-kr.github.io/archive/</guid>
+      <description>Content text goes here&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Example Post test</title>
+      <link>https://0cean-kr.github.io/archive/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://0cean-kr.github.io/archive/</guid>
       <description>Content text goes here&amp;hellip;</description>
     </item>
     
